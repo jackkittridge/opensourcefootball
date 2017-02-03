@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace opensourcefootball\Http\Controllers\Auth;
 
-use App\Player;
-use App\Http\Controllers\Controller;
+use opensourcefootball\Player;
+use opensourcefootball\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

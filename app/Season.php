@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace opensourcefootball;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,7 +19,7 @@ class Season extends Model
 
     // public function playedPlayerMatches()
     // {
-    //     return $this->hasManyThrough('App\PlayerMatch', 'App\Match')->where('matches.played', '=', 1);
+    //     return $this->hasManyThrough('opensourcefootball\PlayerMatch', 'opensourcefootball\Match')->where('matches.played', '=', 1);
     // }
 
     public function getSeasonPlayerStats()

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace opensourcefootball\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Match;
+use opensourcefootball\Match;
 
 class MatchController extends Controller
 {

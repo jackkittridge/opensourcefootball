@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace opensourcefootball\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Season;
+use opensourcefootball\Season;
 use DateTime;
 
 class SeasonsController extends Controller

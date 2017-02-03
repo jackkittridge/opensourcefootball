@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace opensourcefootball;
 
 use Illuminate\Database\Eloquent\Model;
 
